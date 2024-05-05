@@ -36,7 +36,8 @@ private static final Logger log = LoggerFactory.getLogger(SpringbootCloudService
 					new Product("Monitor", 235.00),
 					new Product("Mouse", 40.00),
 					new Product("Estabilizador", 60.00),
-					new Product("Teclado", 50.00))
+					new Product("Teclado", 50.00),
+					new Product("Camara", 150.00))
 			.flatMap(p -> {
 				p.setCreateAt(new Date());
 				return service.save(p);
