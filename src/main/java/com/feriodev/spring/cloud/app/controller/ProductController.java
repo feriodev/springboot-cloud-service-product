@@ -26,7 +26,7 @@ import reactor.core.publisher.Mono;
 
 
 @RestController
-@RequestMapping("/api/product")
+@RequestMapping
 public class ProductController {
 
 	@Autowired
